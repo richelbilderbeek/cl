@@ -2,6 +2,11 @@
 
 My favorite command-line commands
 
+ * [convert all HTML files to Markdown](convert_all_html_to_md.md)
+ * [Remove all .pro.user files recursively](remove_pro_user_files.md)
+
+## Need some revision
+
  * [Add a folder to the path](ClAddFolderToPath.md)
  * [Compare two images](ClCompareImages.md)
  * [Convert a dot graph](ClConvertDotGraph.md)
@@ -27,7 +32,6 @@ My favorite command-line commands
  * [IsValidHtml](ClIsValidHtml.md): checks if a webpage is valid using surfraw and W3C validation service
  * [Login to the Alfa College (Groningen, The Netherlands) wireless network](ClLoginAlfaCollege.md)
  * [ReadWebpage](ClReadWebpage.md): reads a webpage and saves it as a text file
- * [Remove all .pro.user files recursively](ClRemoveProUserFiles.md)
  * [Set the number of workspaces](ClSetNumberOfWorkspaces.md)
  * [SimplifyNewick script (version 1.0)](ToolSimplifyNewickScript_1_0.md): script to call the [tool](Tools.md) [SimplifyNewick](ToolSimplifyNewick.md) multiple times, with different parameters, writing output to one file
  * SLOCCount for no overhead and Dutch minimum wages 
