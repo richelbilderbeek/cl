@@ -2,8 +2,9 @@
 
 My favorite command-line commands
 
- * [convert all HTML files to Markdown](convert_all_html_to_md.md)
- * [Remove all .pro.user files recursively](remove_pro_user_files.md)
+ * [add_clip: send text to clipboard](add_clip.md)
+ * [convert_all_html_to_md: convert all HTML files to Markdown](convert_all_html_to_md.md)
+ * [remove_pro_user_files: Remove all .pro.user files recursively](remove_pro_user_files.md)
 
 ## Need some revision
 
