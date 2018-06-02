@@ -1,19 +1,18 @@
 #!/bin/bash
 
-for folder in `ls`
+for folder in `ls -d */`
 do
-  if [ ! -d $folder ]
+
+  cd $folder
+
+  if [ -d ".git" ]
   then
-    echo $folder" is not a folder"
-    continue
+    echo "git folder: "$folder
+    git add --all :/
+    git commit -m "EOD"
+    git pull
+    git push
   fi
 
-  echo "folder: "$folder
-  #Go in folder
-  cd $folder
-  git add --all :/
-  git commit -m "EOD"
-  git pull
-  git push
   cd ..
 done

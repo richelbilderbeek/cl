@@ -1,14 +1,13 @@
 #!/bin/bash
 
-for folder in `ls`
+for folder in `ls -d */`
 do
-  if [ ! -d $folder ]
+  cd $folder
+
+  if [ -d ".git" ]
   then
-    echo $folder" is not a folder"
-    continue
+    git pull
   fi
 
-  cd $folder
-  git pull
   cd ..
 done
