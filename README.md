@@ -44,3 +44,9 @@ My favorite command-line commands
  * [View a dot graph](ClViewDotGraph.md)
  * [View virtual memory](ClViewVirtualMemory.md)
  * [Use a webcam](ClWebcam.md)
+
+## Digital clock settings
+
+```
+%Y-%m-%d %R:%S
+```
