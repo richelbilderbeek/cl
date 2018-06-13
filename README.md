@@ -50,3 +50,9 @@ My favorite command-line commands
 ```
 %Y-%m-%d %R:%S
 ```
+
+## Sort `atq` by time, first ones at the top
+
+```
+atq | sort -k3M -k4
+```
