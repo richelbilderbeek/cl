@@ -1,6 +1,8 @@
 #/bin/bash
 
+
 # 9:00-10:00 Work
+echo 'espeak -s 120 -p 10 "start to work"' | at now
 echo 'espeak -s 120 -p 10 "time to have a break"' | at now + 60 min
 
 # 10:00-10:15 Break
@@ -19,7 +21,7 @@ echo 'espeak -s 120 -p 10 "time to have a break"' | at now + 210 min
 echo 'espeak -s 120 -p 10 "back to work"' | at now + 225 min
 
 # 12:45-13:45 Work
-echo 'espeak -s 120 -p 10 "time to have a break"' | at now + 285 min
+echo 'espeak -s 120 -p 10 "time to have a long break"' | at now + 285 min
 
 # 13:45-14:30 Longer break
 echo 'espeak -s 120 -p 10 "back to work"' | at now + 330 min
