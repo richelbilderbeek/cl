@@ -1,0 +1,7 @@
+#!/bin/bash
+xdotool search --name "GLV Idun" windowactivate --sync %1 mousemove 700 380
+xdotool search --name "GLV Idun" windowactivate --sync %1 click 1
+xdotool search --name "GLV Idun" windowactivate --sync %1 type "bier"
+xdotool search --name "GLV Idun" windowactivate --sync %1 key Return
+sleep 1
+./search_for_beer
