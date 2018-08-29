@@ -48,7 +48,7 @@ My favorite command-line commands
 ## Digital clock settings
 
 ```
-%Y-%m-%d %R:%S
+%Y-%m-%d     %R:%S
 ```
 
 ## Sort `atq` by time, first ones at the top
