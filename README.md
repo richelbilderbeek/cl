@@ -56,3 +56,11 @@ My favorite command-line commands
 ```
 atq | sort -k3M -k4
 ```
+
+## `clip` alias
+
+Add to `.bashrc`:
+
+```
+alias clip='xclip -selection clipboard'
+```
