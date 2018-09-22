@@ -44,17 +44,12 @@ My favorite command-line commands
  * [View a dot graph](ClViewDotGraph.md)
  * [View virtual memory](ClViewVirtualMemory.md)
  * [Use a webcam](ClWebcam.md)
+ * [View atq sorted by time](view_schedule.md).
 
 ## Digital clock settings
 
 ```
 %Y-%m-%d     %R:%S
-```
-
-## Sort `atq` by time, first ones at the top
-
-```
-atq | sort -k3M -k4
 ```
 
 ## `clip` alias
