@@ -1,50 +1,10 @@
-[Go back to Richel Bilderbeek's homepage](index.htm).
+# [Convert a dot graph](ClConvertDotGraph.htm) using dot
 
-[Go back to Richel Bilderbeek's command line page](Cl.htm).
+```
+dot -Tpng out.dot > out.png
+```
 
- 
-
- 
-
- 
-
- 
-
- 
-
-([Command line](Cl.htm)) [Convert a dot graph](ClConvertDotGraph.htm)
-=====================================================================
-
- 
-
- 
-
- 
-
- 
-
- 
-
-[Convert a dot graph](ClConvertDotGraph.htm) using dot
-------------------------------------------------------
-
- 
-
-  --------------------------------
-  ` dot -Tpng out.dot > out.png`
-  --------------------------------
-
- 
-
- 
-
- 
-
- 
-
- 
-
-### List of supported output types (from \[1\])
+## List of supported output types (from \[1\])
 
  
 
@@ -84,75 +44,17 @@
 -   wbmp: Wireless BitMap format
 -   xlib: Xlib canvas
 
- 
+## [Convert a dot graph](ClConvertDotGraph.htm) to pdf using dot2tex and texi2pdf
 
- 
+```
+dot2tex out.dot > out.tex texi2pdf out.tex
+```
 
- 
-
- 
-
- 
-
-[Convert a dot graph](ClConvertDotGraph.htm) to pdf using dot2tex and texi2pdf
-------------------------------------------------------------------------------
-
- 
-
-  -----------------------------------------------
-  ` dot2tex out.dot > out.tex texi2pdf out.tex`
-  -----------------------------------------------
-
- 
-
- 
-
- 
-
- 
-
- 
-
-External links
---------------
-
- 
+## External links
 
 -   [Wikipedia page about the DOT graph
     language](http://en.wikipedia.org/wiki/DOT_language)
 
- 
+## References
 
- 
-
- 
-
- 
-
- 
-
-References
-----------
-
- 
-
-1.  http://www.graphviz.org/doc/info/output.html
-
- 
-
- 
-
- 
-
- 
-
- 
-
-[Go back to Richel Bilderbeek's command line page](Cl.htm).
-
-[Go back to Richel Bilderbeek's homepage](index.htm).
-
- 
-
-[![Valid XHTML 1.0 Strict](valid-xhtml10.png){width="88"
-height="31"}](http://validator.w3.org/check?uri=referer)
+ * 1.  http://www.graphviz.org/doc/info/output.html
