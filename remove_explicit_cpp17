@@ -10,7 +10,7 @@ do
   perl -pi -w -e 's/# C\+\+17//g;' *.pro
 
   git add --all :/
-  git commit -m "Remove pragma's"
+  git commit -m "Remove .pro files setting C++ to C++17 explicitly"
   git push
  
 
