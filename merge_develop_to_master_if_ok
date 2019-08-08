@@ -7,6 +7,7 @@ master_ok=$(echo $text | egrep "master:.*#.*passed ")
 if [[ $develop_ok && $master_ok ]]
 then
   echo "master and develop are ok"
+  git pull
   git checkout develop
   git pull
   git checkout master
