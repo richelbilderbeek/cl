@@ -1,0 +1,17 @@
+#!/bin/bash
+
+text=$(travis branches)
+develop_ok=$(echo $text | egrep "develop:.*#.*passed ")
+master_ok=$(echo $text | egrep "master:.*#.*passed ")
+
+if [[ $develop_ok && $master_ok ]]
+then
+  echo "master and develop are ok"
+  git checkout develop
+  git pull
+  git checkout master
+  git pull
+  git merge develop
+  git push
+  git checkout develop
+fi
