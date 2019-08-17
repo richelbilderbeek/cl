@@ -56,6 +56,20 @@ My favorite command-line commands
 %Y-%m-%d     %R:%S
 ```
 
+## `man` alias
+
+Add to `.bashrc`:
+
+```
+alias woman=man
+```
+
+Now you can read the documentation using
+
+```
+woman cat
+```
+
 ## `clip` alias
 
 Add to `.bashrc`:
