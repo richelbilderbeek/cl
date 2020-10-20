@@ -77,3 +77,11 @@ Add to `.bashrc`:
 ```
 alias clip='xclip -selection clipboard'
 ```
+
+## Find owner of file
+
+For example,
+
+```
+dpkg -S /usr/include/GL/gl.h
+```
