@@ -85,3 +85,14 @@ For example,
 ```
 dpkg -S /usr/include/GL/gl.h
 ```
+
+## Show week number in Ubuntu calendar
+
+From [here](https://askubuntu.com/a/1093293):
+
+```
+dconf-editor
+```
+
+Then navigate to `/org/gnome/desktop/calendar/show-weekdate`
+
