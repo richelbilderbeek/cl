@@ -104,5 +104,6 @@ Thanks to https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definit
  * Copied `no` (Nordic) for `/usr/share/X11/xkb/symbols` to here
  * Copied `no` to to `no_arrogant` (my keyboard is of a brand called 'arrogant'
  * Modified `no_arrogant`
+ * ´cp no_arrogant /usr/share/X11/xkb/symbols/no´
+ * ´cd /var/lib/xkb/ ; sudo rm *.xkm´
 
- 
