@@ -24,6 +24,7 @@ My favorite command-line commands
  * [Convert WAV to OGG](ClWavToOgg.md)
  * [Disk space left](ClDiskSpaceLeft.md)
  * [Espeak with a Dutch voice](ClEspeakDutch.md)
+ * [Espeak with a Swedish voice](ClEspeakSwedish.md)
  * [Find text in files](ClFindTextInFiles.md): find a regex in regex-named files in all subfolders
  * [Find Rhythmbox playlists](ClFindRhythmboxPlaylists.md): find the path of your Rhythmbox playlists
  * [Find Word edited HTML files](ClFindWordEditedHtml.md)
