@@ -108,3 +108,37 @@ Thanks to https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definit
  * ´cp no_arrogant /usr/share/X11/xkb/symbols/no´
  * ´cd /var/lib/xkb/ ; sudo rm *.xkm´
 
+## Swapfile
+
+From https://linuxhandbook.com/increase-swap-ubuntu/
+
+Read:
+
+```
+swapon --show
+```
+
+Turn off swap:
+
+```
+sudo swapoff /swapfile
+```
+
+Create a 20 GB swapfile:
+
+```
+sudo fallocate -l 20G /swapfile
+```
+
+Mark the swapfile:
+
+```
+sudo mkswap /swapfile
+```
+
+Enable the swapfile:
+
+```
+sudo swapon /swapfile
+```
+
