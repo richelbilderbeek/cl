@@ -53,9 +53,18 @@ My favorite command-line commands
 
 ## Digital clock settings
 
+Use 'GNOME Tweaks':
+
+![](set_time.png)
+
+Old-skool is to use:
+
 ```
 %Y-%m-%d     %R:%S
 ```
+
+Since Jammy, I cannot find the field where to paste this format text.
+
 
 ## `man` alias
 
