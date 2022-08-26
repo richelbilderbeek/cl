@@ -96,6 +96,12 @@ For example,
 dpkg -S /usr/include/GL/gl.h
 ```
 
+## Resize images
+
+```
+for img in *.*; do convert -resize 50% "$img" "opt-$img"; done
+```
+
 ## Show week number in Ubuntu calendar
 
 From [here](https://askubuntu.com/a/1093293):
