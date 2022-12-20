@@ -32,7 +32,6 @@ My favorite command-line commands
  * [Login to the Alfa College (Groningen, The Netherlands) wireless network](ClLoginAlfaCollege.md)
  * [ReadWebpage](ClReadWebpage.md): reads a webpage and saves it as a text file
  * [Set the number of workspaces](ClSetNumberOfWorkspaces.md)
- * [SimplifyNewick script (version 1.0)](ToolSimplifyNewickScript_1_0.md): script to call the [tool](Tools.md) [SimplifyNewick](ToolSimplifyNewick.md) multiple times, with different parameters, writing output to one file
  * SLOCCount for no overhead and Dutch minimum wages 
  * Start an application from terminal and make it run autonomously 
  * [Sum the size of all files with a .md extension](ClSumSizeHtml.md)
@@ -42,7 +41,7 @@ My favorite command-line commands
  * [View a dot graph](ClViewDotGraph.md)
  * [View virtual memory](ClViewVirtualMemory.md)
  * [Use a webcam](ClWebcam.md)
- * [View atq sorted by time](view_schedule.md).
+
 ## Digital clock settings
 Use 'GNOME Tweaks':
 ![](set_time.png)
