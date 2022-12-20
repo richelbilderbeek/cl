@@ -1,9 +1,5 @@
 # Cl
 
-Branch  |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.com)
---------|------------------------------------------------------------------------------------------------------------------------
-`master`|[![Build Status](https://travis-ci.com/richelbilderbeek/cl.svg?branch=master)](https://travis-ci.com/richelbilderbeek/cl)
-
 My favorite command-line commands
 
  * [add_clip: send text to clipboard](add_clip.md)
