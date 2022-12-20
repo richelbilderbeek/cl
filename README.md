@@ -1,13 +1,10 @@
 # Cl
-
 My favorite command-line commands
-
  * [add_clip: send text to clipboard](add_clip.md)
  * [convert_all_html_to_md: convert all HTML files to Markdown](convert_all_html_to_md.md)
  * [remove_pro_user_files: Remove all .pro.user files recursively](remove_pro_user_files.md)
 
 ## Need some revision
-
  * [Add a folder to the path](ClAddFolderToPath.md)
  * [Compare two images](ClCompareImages.md)
  * [Convert a dot graph](ClConvertDotGraph.md)
@@ -46,110 +43,69 @@ My favorite command-line commands
  * [View virtual memory](ClViewVirtualMemory.md)
  * [Use a webcam](ClWebcam.md)
  * [View atq sorted by time](view_schedule.md).
-
 ## Digital clock settings
-
 Use 'GNOME Tweaks':
-
 ![](set_time.png)
-
 Old-skool is to use:
-
 ```
 %Y-%m-%d     %R:%S
 ```
-
 Since Jammy, I cannot find the field where to paste this format text.
-
-
 ## `man` alias
-
 Add to `.bashrc`:
-
 ```
 alias woman=man
 ```
-
 Now you can read the documentation using
-
 ```
 woman cat
 ```
-
 ## `clip` alias
-
 Add to `.bashrc`:
-
 ```
 alias clip='xclip -selection clipboard'
 ```
-
 ## Find owner of file
-
 For example,
-
 ```
 dpkg -S /usr/include/GL/gl.h
 ```
-
 ## Resize images
-
 ```
 for img in *.*; do convert -resize 50% "$img" "opt-$img"; done
 ```
-
 ## Show week number in Ubuntu calendar
-
 From [here](https://askubuntu.com/a/1093293):
-
 ```
 dconf-editor
 ```
-
 Then navigate to `/org/gnome/desktop/calendar/show-weekdate`
-
-
 ## Edit keyboard layout
-
 Thanks to https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definitions :
-
  * Copied `no` (Nordic) for `/usr/share/X11/xkb/symbols` to here
  * Copied `no` to to `no_arrogant` (my keyboard is of a brand called 'arrogant'
  * Modified `no_arrogant`
  * ´cp no_arrogant /usr/share/X11/xkb/symbols/no´
  * ´cd /var/lib/xkb/ ; sudo rm *.xkm´
-
 ## Swapfile
-
 From https://linuxhandbook.com/increase-swap-ubuntu/
-
 Read:
-
 ```
 swapon --show
 ```
-
 Turn off swap:
-
 ```
 sudo swapoff /swapfile
 ```
-
 Create a 20 GB swapfile:
-
 ```
 sudo fallocate -l 20G /swapfile
 ```
-
 Mark the swapfile:
-
 ```
 sudo mkswap /swapfile
 ```
-
 Enable the swapfile:
-
 ```
 sudo swapon /swapfile
 ```
-

@@ -1,54 +1,7 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-([Command line](Cl.htm)) [convert WAV to OGG](ClWavToOgg.htm)
-=============================================================
-
-
-
-
-
-
-
-
-
-
+# convert WAV to OGG
 
 All files in a folder at once:
 
-
-
-  ---------------------------------------------------------------------------
-  ``  for x in *.Wav; do avconv -i "$x" "`basename "$x" .wav`.ogg"; done ``
-  ---------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+for x in *.wav; do avconv -i "$x" "$(basename "$x" .wav).ogg"; done
+```

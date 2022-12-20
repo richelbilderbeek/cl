@@ -1,47 +1,8 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-([Command line](Cl.htm)) ![Lubuntu](PicLubuntu.png) [Set the number of workspaces](ClSetNumberOfWorkspaces.htm)
-===============================================================================================================
-
-
+# Set the number of workspaces
 
 When I want to change the number of workspaces under Lubuntu from the
 'Desktop Pager', it crashes. Use the following program instead:
 
-
-
-  -----------
-  ` obconf`
-  -----------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+obconf
+```

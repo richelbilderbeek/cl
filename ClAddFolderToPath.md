@@ -1,6 +1,6 @@
-# ([Command line](Cl.htm)) ![Windows](PicWindows.png) [Add a folder to path](ClAddFolderToPath.htm)
+# Add a folder to path
 
-[Add a folder to path](ClAddFolderToPath.htm)
+Add a folder to path
 
 ```
 setx path "%PATH%;C:\MyPath"

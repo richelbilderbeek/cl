@@ -1,54 +1,7 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-([Command line](Cl.htm)) ![Linux](PicLinux.png) [Do I have PAE?](ClHasPae.htm)
-==============================================================================
-
-
+# Do I have PAE?
 
 To find out if you have PAE.
 
-
-
-
-
-
-
-
-
-
-
-  -----------------------------------
-  ` cat /proc/cpuinfo | grep "pae"`
-  -----------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+cat /proc/cpuinfo | grep "pae"
+```

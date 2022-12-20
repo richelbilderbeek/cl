@@ -1,46 +1,7 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-([Command line](Cl.htm)) ![Lubuntu](PicLubuntu.png) [Use Tor with lynx](ClTorLynx.htm)
-======================================================================================
-
-
+# Use Tor with lynx
 
 How to use the Tor service with Lynx
 
-
-
-  ----------------------------------------------------------
-  ` torsocks lynx -noreferer https://check.torproject.org`
-  ----------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+torsocks lynx -noreferer https://check.torproject.org
+```
