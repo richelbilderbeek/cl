@@ -11,7 +11,7 @@ After this, the terminal can be closed.
  * You can now close the terminal
 
 Below the terminal output of doing the above can be seen:
- 
+
 ```
 richel@richel-K73E:~$ gftp
 ^Z

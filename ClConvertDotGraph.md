@@ -6,7 +6,7 @@ dot -Tpng out.dot > out.png
 
 ## List of supported output types (from \[1\])
 
- 
+
 
 -   bmp: Windows Bitmap Format
 -   canon: DOT
