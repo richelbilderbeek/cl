@@ -1,4 +1,4 @@
-# [View a dot graph](ClViewDotGraph.htm)
+# View a dot graph
 
 ### using `dotty`
 

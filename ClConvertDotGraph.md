@@ -41,7 +41,8 @@ dot -Tpng out.dot > out.png
  * vrml: VRML
  * wbmp: Wireless BitMap format
  * xlib: Xlib canvas
-## [Convert a dot graph](ClConvertDotGraph.htm) to pdf using dot2tex and texi2pdf
+
+## Convert a dot graph to pdf using `dot2tex` and `texi2pdf`
 
 ```
 dot2tex out.dot > out.tex texi2pdf out.tex
