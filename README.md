@@ -43,6 +43,7 @@ My favorite command-line commands
  * [Use a webcam](ClWebcam.md)
 
 ## Digital clock settings
+
 Use 'GNOME Tweaks':
 ![](set_time.png)
 Old-skool is to use:
@@ -50,6 +51,7 @@ Old-skool is to use:
 %Y-%m-%d     %R:%S
 ```
 Since Jammy, I cannot find the field where to paste this format text.
+
 ## `man` alias
 Add to `.bashrc`:
 ```
@@ -73,6 +75,7 @@ dpkg -S /usr/include/GL/gl.h
 ```
 for img in *.*; do convert -resize 50% "$img" "opt-$img"; done
 ```
+
 ## Show week number in Ubuntu calendar
 From [here](https://askubuntu.com/a/1093293):
 ```
@@ -86,6 +89,7 @@ Thanks to https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definit
  * Modified `no_arrogant`
  * ´cp no_arrogant /usr/share/X11/xkb/symbols/no´
  * ´cd /var/lib/xkb/ ; sudo rm *.xkm´
+
 ## Swapfile
 From https://linuxhandbook.com/increase-swap-ubuntu/
 Read:
