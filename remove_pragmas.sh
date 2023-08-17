@@ -1,9 +1,9 @@
 #!/bin/bash
 
-for folder in `ls -d */`
+for folder in ls -d ./*
 do
   (
-    cd $folder
+    cd "${folder}" || exit 42
 
     perl -pi -w -e 's/#pragma GCC diagnostic pop//g;' ./*..h
     perl -pi -w -e 's/#pragma GCC diagnostic pop//g;' ./*..cpp
