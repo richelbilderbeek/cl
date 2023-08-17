@@ -16,13 +16,13 @@ do
 
     message="Free $free""MB"", buffers $buffers""MB"", available $available""MB"""
 
-    if [ $available -lt $THRESHOLD ]
+    if [ "${available}" -lt "${THRESHOLD}" ]
         then
         notify-send "Memory is running out!" "$message"
     fi
 
-    echo $message
+    echo "${message}"
 
-    sleep $INTERVAL
+    sleep ${INTERVAL}
 
 done
