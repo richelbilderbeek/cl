@@ -3,7 +3,7 @@ CODE_TO_HTML_BIN=~/bin/ToolCodeToHtmlConsole
 
 if [ ! -e $CODE_TO_HTML_BIN ]
 then
-  echo "ERROR: CodeToHtml binary not found at "$CODE_TO_HTML_BIN
+  echo "ERROR: CodeToHtml binary not found at "${CODE_TO_HTML_BIN}
   exit
 fi
 

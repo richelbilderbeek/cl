@@ -11,20 +11,19 @@
 #   ./merge_richel_to_develop
 #
 
-for folder in $(ls -d */)
+for folder in ls -d ./*
 do
+  (
+    echo "${folder}"
+    cd "${folder}" || exit 42
 
-  cd $folder
-  echo $folder
+    git pull
+    git checkout richel
+    git pull
+    git checkout develop
+    git pull
+    git merge richel
 
-  git pull
-  git checkout richel
-  git pull
-  git checkout develop
-  git pull
-  git merge richel
-
-  git checkout richel
-
-  cd ..
+    git checkout richel
+  )
 done

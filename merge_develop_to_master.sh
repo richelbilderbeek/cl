@@ -11,20 +11,21 @@
 #   ./merge_develop_to_master
 #
 
-for folder in $(ls -d */)
+for folder in ls -d ./*
 do
 
-  cd $folder
-  echo $folder
+  (
+    echo "${folder}"
+    cd "${folder}" || exit 42
 
-  git pull
-  git checkout develop
-  git pull
-  git checkout master
-  git pull
-  git merge develop
+    git pull
+    git checkout develop
+    git pull
+    git checkout master
+    git pull
+    git merge develop
 
-  git checkout develop
+    git checkout develop
 
-  cd ..
+  )
 done
