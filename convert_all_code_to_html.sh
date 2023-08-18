@@ -7,7 +7,7 @@ then
   exit
 fi
 
-for folder in $(ls | egrep -v "build-")
+for folder in $(find . | grep -Ev "build-")
 do
   echo "${folder}"
   ${CODE_TO_HTML_BIN} "${folder}"
@@ -15,5 +15,5 @@ done
 
 rm tmp.txt
 rm trace_out.txt
-mv *.htm ~/GitHubs/RichelbilderbeekNl/Cpp
+mv ./*.htm ~/GitHubs/RichelbilderbeekNl/Cpp
 
