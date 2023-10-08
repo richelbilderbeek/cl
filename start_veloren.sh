@@ -1,3 +1,3 @@
 #!/bin/bash
-XCURSOR_THEME=Adwaita ./veloren
+XCURSOR_THEME=Adwaita ./veloren/veloren-voxygen
 
