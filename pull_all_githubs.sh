@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for folder in $(ls -d ./*)
+for folder in ./*
 do
   (
     cd "${folder}" || exit 42
