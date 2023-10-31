@@ -45,7 +45,9 @@ My favorite command-line commands
 ## Digital clock settings
 
 Use 'GNOME Tweaks':
+
 ![](set_time.png)
+
 Old-skool is to use:
 ```
 %Y-%m-%d     %R:%S
@@ -62,27 +64,37 @@ Now you can read the documentation using
 woman cat
 ```
 ## `clip` alias
+
 Add to `.bashrc`:
+
 ```
 alias clip='xclip -selection clipboard'
 ```
+
 ## Find owner of file
+
 For example,
+
 ```
 dpkg -S /usr/include/GL/gl.h
 ```
+
 ## Resize images
+
 ```
 for img in *.*; do convert -resize 50% "$img" "opt-$img"; done
 ```
 
 ## Show week number in Ubuntu calendar
+
 From [here](https://askubuntu.com/a/1093293):
 ```
 dconf-editor
 ```
 Then navigate to `/org/gnome/desktop/calendar/show-weekdate`
+
 ## Edit keyboard layout
+
 Thanks to https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definitions :
  * Copied `no` (Nordic) for `/usr/share/X11/xkb/symbols` to here
  * Copied `no` to to `no_arrogant` (my keyboard is of a brand called 'arrogant'
