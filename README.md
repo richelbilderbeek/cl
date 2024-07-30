@@ -1,6 +1,8 @@
 # Cl
+
 My favorite command-line commands
  * [add_clip: send text to clipboard](add_clip.md)
+ * [add_woman: read the womanual](add_woman.md)
  * [convert_all_html_to_md: convert all HTML files to Markdown](convert_all_html_to_md.md)
  * [remove_pro_user_files: Remove all .pro.user files recursively](remove_pro_user_files.md)
 
@@ -31,7 +33,9 @@ My favorite command-line commands
  * [IsValidHtml](ClIsValidHtml.md): checks if a webpage is valid using surfraw and W3C validation service
  * [Login to the Alfa College (Groningen, The Netherlands) wireless network](ClLoginAlfaCollege.md)
  * [ReadWebpage](ClReadWebpage.md): reads a webpage and saves it as a text file
+ * [Set the time, let the clock display the day of the week and the seconds](set_time.md)
  * [Set the number of workspaces](ClSetNumberOfWorkspaces.md)
+ * [Show the week number in the Ubuntu calendar](show_week.md)
  * SLOCCount for no overhead and Dutch minimum wages 
  * Start an application from terminal and make it run autonomously 
  * [Sum the size of all files with a .md extension](ClSumSizeHtml.md)
@@ -41,35 +45,6 @@ My favorite command-line commands
  * [View a dot graph](ClViewDotGraph.md)
  * [View virtual memory](ClViewVirtualMemory.md)
  * [Use a webcam](ClWebcam.md)
-
-## Digital clock settings
-
-Use 'GNOME Tweaks':
-
-![](set_time.png)
-
-Old-skool is to use:
-```
-%Y-%m-%d     %R:%S
-```
-Since Jammy, I cannot find the field where to paste this format text.
-
-## `man` alias
-Add to `.bashrc`:
-```
-alias woman=man
-```
-Now you can read the documentation using
-```
-woman cat
-```
-## `clip` alias
-
-Add to `.bashrc`:
-
-```
-alias clip='xclip -selection clipboard'
-```
 
 ## Find owner of file
 
@@ -85,14 +60,6 @@ dpkg -S /usr/include/GL/gl.h
 for img in *.*; do convert -resize 50% "$img" "opt-$img"; done
 ```
 
-## Show week number in Ubuntu calendar
-
-From [here](https://askubuntu.com/a/1093293):
-```
-dconf-editor
-```
-Then navigate to `/org/gnome/desktop/calendar/show-weekdate`
-
 ## Edit keyboard layout
 
 Thanks to https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definitions :
@@ -103,6 +70,7 @@ Thanks to https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definit
  * ´cd /var/lib/xkb/ ; sudo rm *.xkm´
 
 ## Swapfile
+
 From https://linuxhandbook.com/increase-swap-ubuntu/
 Read:
 ```
