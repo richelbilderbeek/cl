@@ -50,13 +50,13 @@ My favorite command-line commands
 
 For example,
 
-```
+```bash
 dpkg -S /usr/include/GL/gl.h
 ```
 
 ## Resize images
 
-```
+```bash
 for img in *.*; do convert -resize 50% "$img" "opt-$img"; done
 ```
 
